@@ -20,6 +20,7 @@ if(isset($_POST['submit'])){
         $poruka = "Doslo je do greske. Pokusajte kasnije";
     }
 }
+
 if(isset($_POST['izmena'])){
     $outfitID = $_POST['outfitIzmena'];
     $naziv = $_POST['nazivIzmena'];
